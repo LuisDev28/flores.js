@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+
+p {
+  text-align: justify;
+  font-size: 18px;
+}
+
+h2 {
+  text-align: justify;
+  font-size: 20;
+}
+
+.carta {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-repeat: repeat;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+  .carta {
+    width: 100%;
+  }
+}
+
+
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
