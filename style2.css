@@ -1,0 +1,81 @@
+body{
+    background: rgb(253, 246, 117);
+}
+
+.presentacion {
+height: 450px;
+width: 50%;
+display: flex;
+margin: auto;
+border-radius: 7px;
+box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+overflow: hidden;
+box-sizing: border-box;
+}
+
+.presentacion .img {
+width: 50%;
+border-radius: 0 7px 10px 7px;
+background: white;
+}
+
+.presentacion .img img{
+    width: 190%;
+    vertical-align:center;
+}
+.carta {
+width: 50%;
+border-radius: 0 7px 10px 7px;
+background: white;
+}
+.cartaTexto{
+    width: 100%;
+}
+.cartaTexto h1{
+    margin-left: 38px;
+    padding-top: 12px;
+    font-size: 34px;
+    color: #474747;
+}
+ .cartaTexto .precionar-btn h1 { 
+    font-family: serif;
+ }
+
+ .cartaTexto h2 {
+    margin-left: 38px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: #474747;
+    letter-spacing: .2em;
+ }
+
+ .cartaTexto p {
+    height: 125px;
+    margin-left: 38px; 
+    font-family: serif;
+    color: #474747;
+     line-height: 2em;
+ }
+ .precionar-btn {
+    height: 103px;
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+ }
+ .precionar-btn a {
+    height: 50px;
+    width: 160px;
+    border-radius: 60px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .1.5em;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    background: rgb(25, 17, 21);
+    cursor: pointer;
+    text-decoration: none;
+}
+ .precionar-btn a:hover {
+    background: rgb(253, 246, 117) ;
+ }
